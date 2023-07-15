@@ -453,6 +453,7 @@ footer input {
   background-repeat: no-repeat;
   background-size: cover; */
   background-position: center;
+  /* height: 600px; */
 }
 
 
@@ -578,7 +579,7 @@ footer input {
     right: -10px;
   }
   #hero-section{
-    padding-top: 8%;
+    padding-top: 25em;
   }
 
   .hero-section {
