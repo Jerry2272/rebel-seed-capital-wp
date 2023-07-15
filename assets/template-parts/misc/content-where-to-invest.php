@@ -2,11 +2,9 @@
  <div class="container div_sections where">
     <div class="row justify-content-center">
       <div class="col-lg-5 where_we_invest">
-        <h6 class="my-4">where we invest</h6>
+        <h6 class="my-4">SECTORS WE INVEST IN</h6>
         <p class="py-3">
-          We invest in high and fast growth startups in the underserved parts of Africa, mainly South South & South
-          Eastern Nigeria. We believe in the entreprise & the growth of Southern Nigeria; that is why till date we have
-          invested & supported startups in the following areas in South South & South Eastern Nigeria.
+        We invest in founders first. We expect you to be passionate about what you are building - especially if it's a potential high and fast growth venture in cities across Africa not yet in most VCs itinerary. We are not blabbing. Our General Partners believed so much they built the first Angel Network targeting two regions with eleven states and over Sixty Million people with zero VC presence in Nigeria. We believe in the enterprise & growth of Africa and till date we invest & support startups.
         </p>
           <div class="invest_btn">
             <button class="btn btn_learn_more">Learn more about us <span> <i class="fa fa-arrow-right ms-2"></i>

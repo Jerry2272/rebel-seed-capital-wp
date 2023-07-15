@@ -62,7 +62,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6">
-          <p>© 2022 Rebel Seed Capital. All rights reserved</p>
+          <p>© <?php echo get_the_date('Y'); ?> Rebel Seed Capital. All rights reserved  | <a href="havilahandhills.com" class="text-primary" target="blank_"> Design Credit</a></p>
         </div>
         <div class="col-lg-6">
           <?php

@@ -16,10 +16,10 @@
     <div class="container-fluid justify-content-center team div_sections">
       <div class="row justify-content-center">
         <div class="col-lg-6">
-          <h2 class="text-center"> Meet our team </h2>
+          <h2 class="text-center"> Meet Our Team </h2>
           <p class="text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
-            sit amet luctus venenatis, lectus magna fringilla urna
+          Over 60+ years of combined business operations, investment and tech 
+ecosystem development experience
           </p>
         </div>
         <div class="ow-button text-lg-end">
@@ -51,8 +51,10 @@
               <img src="<?php the_post_thumbnail_url(); ?>" class="img-fluid" alt="...">
              <?php endif; ?>
             <div class="item">
-              <span> <small> <?php the_excerpt(); ?> </small> </span>
-              <h6> <?php the_title(); ?> </h6>
+              <p> 
+                <small> 
+                  <?php echo get_post_meta($post->ID, 'team-role', true); ?>
+               </small> <br /> <b><?php the_title(); ?></b> </p> 
             </div>
           </div>
 
