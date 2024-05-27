@@ -2,7 +2,7 @@
  if (is_category('recent-news') ):
 ?>
 <!-- hero_section-->
- <div class="container-fluid hero-section pe-lg-5 ps-lg-5" id="hero-section"  style="background-image:linear-gradient( rgba(10, 30, 54, 0.8), rgba(10, 30, 54, 0.8)), url(' <?php if (has_post_thumbnail()) {echo get_the_post_thumbnail_url();} else { echo get_template_directory_uri() . '/assets/image/b_last.png';} ?>'); background-size: cover; background-position: center; background-repeat: no-repeat;" >
+ <div class="container-fluid hero-section pe-lg-5 ps-lg-5" id="hero-section"  style="background-image:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(' <?php if (has_post_thumbnail()) {echo get_the_post_thumbnail_url();} else { echo get_template_directory_uri() . '/assets/image/b_last.png';} ?>'); background-size: cover; background-position: center; background-repeat: no-repeat;" >
     <div class="row gy-4">
     <?php
             $args = array(

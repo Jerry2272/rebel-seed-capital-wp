@@ -47,6 +47,19 @@ window.addEventListener("scroll", () => {
 });
 
 
+// const listInfoElements = document.querySelectorAll('.listInfo');
+
+// // Iterate over each .listInfo element
+// listInfoElements.forEach(listInfoElement => {
+//     // Add click event listener to each .listInfo element
+//     listInfoElement.addEventListener('click', () => {
+//         // Find the .contentInfoDisplay element within the clicked .listInfo element
+//         const contentInfoDisplay = listInfoElement.querySelector('.contentInfoDisplay');
+        
+//         // Toggle the 'contentShow' class for the found .contentInfoDisplay element
+//         contentInfoDisplay.classList.toggle('contentShow');
+//     });
+// });
 
 
 

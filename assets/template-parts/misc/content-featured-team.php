@@ -18,8 +18,7 @@
         <div class="col-lg-6">
           <h2 class="text-center"> Meet Our Team </h2>
           <p class="text-center">
-          Over 60+ years of combined business operations, investment and tech 
-ecosystem development experience
+          An experienced team of doers, dreamers and makers backing exceptional founders wherever they are.
           </p>
         </div>
         <div class="ow-button text-lg-end">

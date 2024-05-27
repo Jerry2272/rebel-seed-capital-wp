@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 
 * {
@@ -49,13 +50,13 @@ p {
   --primary_blue: rgba(4, 156, 126, 0.15);
   --text_color: rgba(5, 5, 5, 1);
   --bacground-color: rgba(4, 156, 126, 0.15);
-  --background-color-opacity-home: rgba(4, 167, 239, 0.27);
+  --background-color-opacity-home: rgba(0, 0, 0, 0.27);
   --background_navy_blue_opacity: rgba(10, 30, 54, 0.35);
   --baground_color_gray: rgba(229, 231, 235, 1);
   --position_absolute: absolute;
   --text_font_size: 18px;
   --text_font_size_: 14px;
-  --font_family_text_derailed: 'Derailed' serif;
+  --font_family_text_derailed: "Lato", sans-serif;
   --line_height_text: 32px;
   --font_weight_text: 500;
   --font_weight_head: 600;
@@ -63,8 +64,8 @@ p {
   --font_weight_h1: 800;
   --font_weight_htag: 700;
   --line_height_htag: 64px;
-  --htag_font_size: 48px;
-  --hero_font_size: 82px;
+  --htag_font_size: 38px;
+  --hero_font_size: 59px;
   --text_align_center: center;
   --height_hero: 735px;
   --text_color_white: rgba(255, 255, 255, 1);
@@ -76,25 +77,27 @@ p {
     url("..//image/hero_bg.png");
   background-position: center;
   background-size: cover;
-  height: 120vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+gap: 80px;
 }
 
-.btn_container button {
-  width: 32px;
-  height: 32px;
-  background-color: transparent;
-  color: #fff;
-  border-radius: 50px;
-  border: 2px solid #fff;
-  transition: all 0.40s ease;
-  margin-top: 3em;
+.btn_container {
+width: auto;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto auto;
 }
 
 .btn_container button:hover {
   transform: translateY(-5px);
 }
 
-.hero-section h1 {
+.hero-section, .hero-section-about h1 {
   color: var(--text_color_white);
 }
 
@@ -167,7 +170,7 @@ button:hover span .fa-arrow-left {
   scale: 1.4;
 } */
 /* hero section */
-.hero-section h1 {
+.hero-section, .hero-section-about h1 {
   font-weight: 700;
   font-size: 52px;
 }
@@ -220,7 +223,6 @@ button:hover span .fa-arrow-left {
   font-size: 18px;
   font-weight: var(--font_weight_head);
   color: var(--text_color);
-  text-transform: uppercase;
 }
 
 .industry ul li {
@@ -312,8 +314,8 @@ button:hover span .fa-arrow-left {
 
 .fund_item h3 {
   border: 6px solid rgba(4, 156, 126, 1);
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   /* width: 100px;
   height: 100px; */
   border-radius: 100%;
@@ -507,7 +509,16 @@ footer input {
 /* blog section end......... */
 
 
-
+/* diplay and hide content on the section where we invest  */
+.contentInfoDisplay,.contentInfoDisplay1,.contentInfoDisplay2,.contentInfoDisplay3, .contentInfoDisplay4 {
+  display: none;
+}
+.contentShow, .contentShow1, .contentShow2,.contentShow3,.contentShow4 {
+  display: block;
+}
+.listInfo p{
+  font-size: 13px!important;
+}
 
 
 
@@ -558,10 +569,11 @@ footer input {
 
   /* .hero-section-navbar-hero-section */
   .hero-section {
+    position: absolute;
     /* height: var(--height_hero); */
     padding-left: 5em;
-    padding-top: 6em;
-    padding-bottom: auto;
+   height: 100vh;
+    padding-bottom: 5em
   }
   .hero-section .text{
     font-weight: 500;
@@ -569,8 +581,8 @@ footer input {
 
   .hero-section h1 {
     font-size: var(--hero_font_size);
-    line-height: 100px;
-    padding-top: 5%;
+    line-height: 90px;
+    padding-top: 3em;
     /* padding-left: 2em; */
   }
 
@@ -694,12 +706,22 @@ footer input {
     font-size: 18px;
   }
 
-
-
   /* footer section */
   footer button {
     width: 158px;
   }
+
+  /* hero-sectio-about starting... */
+    .hero-section-about{
+      background: #0A1E36;
+      padding-top: 6em;
+    }
+
+
+  /* hero-sectio-about ending... */
+
+
+
 
 /* blog section start...... */
 #hero-section .last{
@@ -736,9 +758,8 @@ footer input {
 }
 
 @media (min-width: 1400px) {
-  .hero-section h1{
+  .hero-section, .hero-section-about h1{
     padding-top: 15%;
-    padding-bottom: 1%;
 }
 #hero-section{
   padding-top: 25%;
@@ -762,8 +783,13 @@ footer input {
   }
   .hero-section h1 {
     font-weight: 900;
+    font-size: 38px;
+  }
+  .hero-section-about h1 {
+    font-weight: 900;
     font-size: 42px;
   }
+
 
   .navbar-brand {
     width: 154px;
@@ -771,7 +797,7 @@ footer input {
 
   .hero-section {
     text-align: center;
-    padding-top: 7em;
+    padding-top: 3em;
     margin-top: auto;
   }
 
@@ -870,8 +896,8 @@ footer input {
 
 @media (max-width: 768px){
   .hero-section h1 {
-    font-weight: 900;
-    font-size: 40px;
+    font-weight: 600;
+    font-size: 34px;
   }
 
   .navbar-brand {
@@ -880,7 +906,7 @@ footer input {
 
   .hero-section {
     text-align: center;
-    padding-top: 7em;
+    padding-top: 2em;
   }
 
   .fund-btn {

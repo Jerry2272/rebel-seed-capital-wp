@@ -17,7 +17,7 @@
 
 <!-- header_section -->
 <header>
-    <nav class="navbar navbar-light fixed-top pt-0 p-3">
+    <nav class="navbar navbar-light pt-0 p-3">
       <div class="container-fluid">
       <?php
             $custom_logo_id = get_theme_mod('custom_logo');

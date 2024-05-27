@@ -35,26 +35,6 @@
                 echo bloginfo('name');
             }
             ?>
-
-          <?php
-                if (has_nav_menu('contact')) :
-                    wp_nav_menu(array(
-                        'theme_location' => 'contact',
-                        'container' => false,
-                        'menu_class' => '',
-                        'fallback_cb' => '__return_false',
-                        'items_wrap' => '<ul id="%1$s" class="my-4 mx-auto %2$s">%3$s</ul>',
-                        'depth' => 2,
-                        'walker' => new bootstrap_5_wp_nav_menu_walker()
-                    ));
-                else :
-                    printf(
-                        '<a href="%1$s">%2$s</a>',
-                        esc_url(admin_url('/nav-menus.php')),
-                        esc_html__('Assign a menu', 'rsc')
-                    );
-                endif;
-                ?>
         </div>
       </div>
     </div>

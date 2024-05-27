@@ -15,13 +15,13 @@
 
   <!-- In the news -->
   <div class="container news div_sections">
-    <h5>In the news</h5>
+    <h5>Insight</h5>
     <div class="row justify-content-center gx-lg-5" style="gap: 4em;">
     <?php
             $args = array(
             'post_type'      => 'post',
             'category_name'  => 'featured-article',
-            'posts_per_page' => 2,
+            'posts_per_page' => 6,
             );
             $query = new WP_Query( $args );
 
@@ -38,6 +38,7 @@
           <p class="small">
             <small>
             <?php the_title(); ?>
+            <a href="<?php the_permalink(); ?>"   ><?php the_excerpt(); ?></a>
             </small>
           </p>
         </div>
@@ -50,7 +51,7 @@
               endif;
               ?>
       <div class="text-end mb-3">
-        <button class="btn btn_learn_more"> See all news <span><i class="fa fa-arrow-right ms-2"></i></span> </button>
+        <button class="btn btn_learn_more"> View all insight <span><i class="fa fa-arrow-right ms-2"></i></span> </button>
       </div>
     </div>
   </div>

@@ -12,69 +12,58 @@ get_header();
 <?php get_template_part('assets/template-parts/misc/content', 'what-we-believe') ?>
   <!-- why you should invest with us section -->
   <div class="container-fluid why_us div_sections pt-4">
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link active btn btn_apply" id="pills-home-tab" data-bs-toggle="pill"
-          data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-          <span><i class="fa fa-arrow-left"></i></span> Investors </button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link btn btn_learn_more" id="pills-profile-tab" data-bs-toggle="pill"
-          data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-          Startups <span><i class="fa fa-arrow-right"></i></span> </button>
-      </li>
-    </ul>
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
         <div class="row gy-2">
           <div class="col-lg-6 look_to_invest order-last order-lg-first">
             <h5>
-              <small> What we offer Investors </small>
+              <small>Looking to invest? Here’s why you should Invest with us</small>
             </h5>
             <p>
-            Here’s a few of what we offer smart family offices and Institutional Investors looking to diversify their portfolio while 
+            We back exceptional founders building outside the major tech hubs in Africa.
             </p>
             <ul class="p-0">
               <li>
                 <img src="<?php echo get_template_directory_uri (); ?>/assets/image/feature_icon.png" alt="" class="me-4">
                 <div>
-                  <h6 class="fw-bold">Insight </h6>
+                  <h6 class="fw-bold">Untapped Potential</h6>
                   <p>
-                  We provide unparalleled insight into Africa’s secondary cities’ ecosystem
+                  By focusing on underserved areas, we unlock opportunities for high-growth startups with innovative ideas and untapped markets.
                   </p>
                 </div>
               </li>
               <li>
                 <img src="<?php echo get_template_directory_uri (); ?>/assets/image/feature_icon.png" alt="" class="me-4">
                 <div>
-                  <h6 class="fw-bold">Native Intelligence </h6>
+                  <h6 class="fw-bold">Diverse Portfolio Opportunities</h6>
                   <p>
-                  We are integrated in the fabrics of the ecosystem 
+                  Our unique focus on regions outside major investment hubs ensures a portfolio rich in diversity, offering resilience and the potential for outsized returns.
+
                   </p>
                 </div>
               </li>
               <li>
                 <img src="<?php echo get_template_directory_uri (); ?>/assets/image/feature_icon.png" alt="" class="me-4">
                 <div>
-                  <h6 class="fw-bold"> Impact </h6>
+                  <h6 class="fw-bold">Impactful Investments</h6>
                   <p>
-                  Your money can do more work to uplift humanity 
+                  Our investments drive positive change, empowering entrepreneurs and transforming communities.
                   </p>
                 </div>
               </li>
               <li>
                 <img src="<?php echo get_template_directory_uri (); ?>/assets/image/feature_icon.png" alt="" class="me-4">
                 <div>
-                  <h6 class="fw-bold">Returns </h6>
+                  <h6 class="fw-bold">Experienced Partnership</h6>
                   <p>
-                  We are confident of our ability to maximise return on investment
+                  With a proven track record of identifying and nurturing promising startups in secondary cities, we provide unique insights on the best investments.
                   </p>
                 </div>
               </li>
             </ul>
 
             <div class="mb-3 mt-3">
-              <button class="btn btn_apply me-2"> Schedule a Call<span><i class="fa fa-arrow-right ms-2"></i></span>
+              <button class="btn btn_apply me-2"> Learn  More<span><i class="fa fa-arrow-right ms-2"></i></span>
               </button>
             </div>
           </div>
@@ -155,13 +144,14 @@ get_header();
     <div class="row justify-content-center text-center">
       <div class="col-lg-10">
         <div class="ready">
-          <h5 class="my-3">Are you a Rebel?</h5>
+          <h5 class="my-3">Ready to invest or you have got a daring idea?</h5>
           <p class="text-white-50 mb-5">
-          From our lens, you’re either a Rebel, a Rebel Backer or conformist. If you’re either of the first two, we want to speak with you
+          We back exceptional founders building high-growth technology startups in underserved African cities starting with the South-South & South-Eastern Region of Nigeria.
           </p>
           <div class="mb-3 d-flex justify-content-center" style="gap: 5px;">
-            <button class="btn btn_apply me-lg-3 fund-btn"> <span><i class="fa fa-arrow-left"></i></span> Rebels Apply Here </button>
-            <button class="btn btn_learn_more fund-btn">  Backers Connect Here <span><i class="fa fa-arrow-right"></i></span>
+            <button class="btn btn_apply me-lg-3 fund-btn"> <span><i class="fa fa-arrow-left"></i></span>Apply for funding</button>
+            <button class="btn btn_learn_more fund-btn" 
+            >Invest with us<span><i class="fa fa-arrow-right"></i></span>
             </button>
           </div>
         </div>
